@@ -2,7 +2,7 @@
 
 A modern, responsive e-commerce store built with React, Redux Toolkit, and Styled Components. Stori specializes in tech products including laptops, phones, accessories, and gadgets.
 
-## 🚀 Features
+## Features
 
 - **Modern UI/UX**: Clean, minimal design with blue (#007BFF) and silver (#C0C0C0) brand colors
 - **Product Catalog**: Browse products by category with filtering
@@ -13,7 +13,7 @@ A modern, responsive e-commerce store built with React, Redux Toolkit, and Style
 - **Smooth Animations**: Enhanced UX with Framer Motion animations
 - **Loading States**: Skeleton loaders for better perceived performance
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React** - UI library
 - **Vite** - Build tool and dev server
@@ -24,7 +24,7 @@ A modern, responsive e-commerce store built with React, Redux Toolkit, and Style
 - **Framer Motion** - Animation library
 - **FakeStoreAPI** - Product data API
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -51,59 +51,20 @@ src/
   hooks/            # Custom React hooks
 ```
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+- Node.js (v22)
+- npm
 
-### Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd Stori
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The production build will be in the `dist` folder.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## 📦 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-
-## 🎨 Brand Colors
+## Brand Colors
 
 - **Primary Blue**: #007BFF
 - **Secondary Silver**: #C0C0C0
 
-## 📱 Pages
+## Pages
 
 - **Home** (`/`) - Hero section, categories, and featured products
 - **Products** (`/products`) - Product listing with category filters
@@ -111,7 +72,7 @@ npm run preview
 - **Cart** (`/cart`) - Shopping cart with quantity controls
 - **Checkout** (`/checkout`) - Checkout form with validation
 
-## 🔧 Key Features Implementation
+## Key Features Implementation
 
 ### Redux Store
 - Cart state management with localStorage persistence
@@ -129,45 +90,3 @@ npm run preview
 ## 🚀 Deployment
 
 ### Deploy to Vercel
-
-1. Install Vercel CLI:
-```bash
-npm i -g vercel
-```
-
-2. Deploy:
-```bash
-vercel
-```
-
-Or connect your GitHub repository to Vercel for automatic deployments.
-
-### Build Configuration
-
-The project is configured for Vercel deployment. The build command is:
-```bash
-npm run build
-```
-
-Output directory: `dist`
-
-## 📸 Screenshots
-
-_Add screenshots of your application here_
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-Built with ❤️ for modern e-commerce experiences.
-
----
-
-**Note**: This project uses FakeStoreAPI for demonstration purposes. In a production environment, you would connect to your own backend API.
-
